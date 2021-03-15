@@ -22,7 +22,7 @@ Multiple fields can be searched simultaneously, such as state and date.  In this
 ## Summary
 ### Drawbacks
 * Persistent data - It should be noted that in all three of the above searches, previous search terms linger in the input boxes even though they do not affect the results.  For
-example, the search for disk shaped objects shows that a previous search for UFO sightings on 12/15/2010 was performed, as it remains in the Date field.  Data input persists even after reloading the table data, not clearing the input boxes.  A likely solution that includes a Clear box in the css stylesheet can be found in this YouTube video: 
+example, the search for disk shaped objects shows that a previous search for UFO sightings on 12/25/2010 was performed, as it remains in the Date field.  Data input persists even after reloading the table data, not clearing the input boxes.  A likely solution that includes a Clear box in the css stylesheet can be found in this YouTube video: 
 https://www.youtube.com/watch?v=v_m16oewrH0
 * Inflexible user input - If a user enters 01/01/2010 instead of 1/1/2010 the results are zero, as can be seen here:
 [Double digit failure] https://github.com/CaroShaf/UFOs/blob/main/images/doubledigitfail.png
